@@ -1,0 +1,28 @@
+^C:\FLUTTER_PROJECTS\CHARA\BUILD\WINDOWS\X64\CMAKEFILES\46892CE8707A87A0C9D5780283D3CB6D\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter PROJECT_DIR=C:\flutter_projects\chara FLUTTER_ROOT=C:\src\flutter FLUTTER_EPHEMERAL_DIR=C:\flutter_projects\chara\windows\flutter\ephemeral PROJECT_DIR=C:\flutter_projects\chara FLUTTER_TARGET=C:\flutter_projects\chara\lib\fileuploadscreen.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false PACKAGE_CONFIG=C:\flutter_projects\chara\.dart_tool\package_config.json C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\FLUTTER_PROJECTS\CHARA\BUILD\WINDOWS\X64\CMAKEFILES\94A59D76D642140276AC0A68FF7E484C\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\FLUTTER_PROJECTS\CHARA\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\BuildTools\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/flutter_projects/chara/windows -BC:/flutter_projects/chara/build/windows/x64 --check-stamp-file C:/flutter_projects/chara/build/windows/x64/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

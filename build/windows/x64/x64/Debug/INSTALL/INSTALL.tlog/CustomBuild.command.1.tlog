@@ -1,0 +1,10 @@
+^C:\FLUTTER_PROJECTS\CHARA\BUILD\WINDOWS\X64\CMAKEFILES\556491134F545A3D3C0B06D1B61C367E\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
